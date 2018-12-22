@@ -72,7 +72,7 @@ var markHigherBMI = BMIMark > BMIJohn;
 console.log('Is Mark\'s BMI higher than John\'s? ' + markHigherBMI);
 */
 //Bmi Calculator
-
+/*
 var massYour = prompt('Hvad er din vægt?');
 var heightYour = prompt('Hvad er din højde?');
 
@@ -81,9 +81,21 @@ var BMIdin = massYour / (heightYour * heightYour);
 
 //console.log(BMIdin);
 var BMIdin = alert('Din bmi er' + ' ' + BMIdin);
+*/
+
+// iff else statment
+
+var firstName = 'John';
+var civilStatus;
+var status = prompt('Hvad er din status');
 
 
 
+if (status === 'married') {
+    console.log(firstName + ' is married!');
+} else {
+    console.log('John is single!');
+} 
 
 
 
