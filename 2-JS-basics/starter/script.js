@@ -84,7 +84,7 @@ var BMIdin = alert('Din bmi er' + ' ' + BMIdin);
 */
 
 // iff else statment
-
+/*
 var firstName = 'John';
 var civilStatus;
 var status = prompt('Hvad er din status');
@@ -96,7 +96,18 @@ if (status === 'married') {
 } else {
     console.log('John is single!');
 } 
+*/
 
+var firstName = 'john';
+var age = 12;
+
+if (age < 13) {
+    console.log(firstName + ' is a boy');
+    } else if (age >= 13 && age < 20){
+        console.log(firstName + ' is a teenager');
+    } else {
+        console.log(firstName + ' is a man');
+    }
 
 
 
