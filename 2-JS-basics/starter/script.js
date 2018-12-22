@@ -97,7 +97,7 @@ if (status === 'married') {
     console.log('John is single!');
 } 
 */
-
+/*
 var firstName = 'john';
 var age = 12;
 
@@ -108,7 +108,39 @@ if (age < 13) {
     } else {
         console.log(firstName + ' is a man');
     }
+*/
 
+//the tenary operator
+/*
+var firstName = 'john'
+var age = 15;
+
+age >= 16 ? console.log(firstName + ' drinks beer')
+: console.log(firstName + ' drinks juice');
+*/
+
+// challange
+
+var johnGame = (89 + 120 + 103) /3;
+var mikeGame = (116 + 94 + 123) /3;
+var maryGame = (97 + 134 + 105) /3;
+// var winner;
+
+console.log(johnGame, mikeGame, maryGame);
+
+switch (winner) {
+    case johnGame > mikeGame || maryGame:
+    console.log('John winns with the avareage score off' + ' ' + johnGame);
+    break;
+    case mikeGame > johnGame && maryGame:
+    console.log('John' + ' winns with the avareage score off' + ' ' + johnGame);
+    break;
+    case maryGame > mikeGame && johnGame:
+    console.log(' Mary winns with the avareage score off' + ' ' + johnGame);
+    break;
+    default:
+        console.log(' All are even.');
+}
 
 
 
