@@ -123,11 +123,23 @@ age >= 16 ? console.log(firstName + ' drinks beer')
 
 var johnGame = (89 + 120 + 103) /3;
 var mikeGame = (116 + 94 + 123) /3;
-var maryGame = (97 + 134 + 105) /3;
+var maryGame = (97 + 334 + 105) /3;
 // var winner;
 
 console.log(johnGame, mikeGame, maryGame);
 
+if(johnGame > mikeGame && maryGame){
+    console.log('John vins');
+} else if(mikeGame > johnGame && maryGame){
+    console.log('mikegame is the winner');
+
+} else console.log('mary is the winner');
+
+
+
+
+
+/*
 switch (winner) {
     case johnGame > mikeGame || maryGame:
     console.log('John winns with the avareage score off' + ' ' + johnGame);
@@ -141,7 +153,7 @@ switch (winner) {
     default:
         console.log(' All are even.');
 }
-
+*/
 
 
 
